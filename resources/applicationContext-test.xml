@@ -60,6 +60,10 @@
 				<bean class="me.kafeitu.demo.activiti.activiti.form.UsersFormType" />
 			</list>
 		</property>
+		
+		<!-- 发布流程生成图片时正常显示中文 -->
+		<property name="activityFontName" value="微软雅黑"/>
+		<property name="labelFontName" value="微软雅黑"/>
 	</bean>
 
 	<bean id="processEngine" class="org.activiti.spring.ProcessEngineFactoryBean">
